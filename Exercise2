@@ -1,0 +1,11 @@
+#1
+def return_42(a):
+  print (a)
+
+return_42(42)
+
+#2
+def my_method(a,b):
+  return a*b
+
+print (my_method(5,5))

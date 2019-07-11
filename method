@@ -6,4 +6,6 @@ def return_42():
 def my_method(a,b):
   return a*b
 
-print (my_method(5,5))
+
+print(return_42())
+print(my_method(5,5))

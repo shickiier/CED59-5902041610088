@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def member():
-    return 'member.html'
+    return render_template ('member.html')
 
 
 

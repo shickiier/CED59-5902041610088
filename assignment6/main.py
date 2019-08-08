@@ -4,9 +4,11 @@ app = Flask(__name__)
 def member():
     return render_template('member.html')
 
-@app.route('/', method=["POST"])
+
+@app.route('/', methods=["POST"])
 def register():
     return 'Done!'
+
 
 if __name__ == "__main__":
     app.run()

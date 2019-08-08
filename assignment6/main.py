@@ -7,7 +7,7 @@ def member():
 
 @app.route('/', methods=["POST"])
 def register():
-    return 'Done!'
+    return 'Success'
 
 
 if __name__ == "__main__":

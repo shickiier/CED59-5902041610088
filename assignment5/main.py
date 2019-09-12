@@ -1,12 +1,9 @@
-
-from flask import Flask,render_template
+from flask import Flask, render_template, request
 app = Flask(__name__)
-
-@app.route("/")
+@app.route('/')
 def member():
-    return render_template ('member.html')
-
+    return render_template('member.html')
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
